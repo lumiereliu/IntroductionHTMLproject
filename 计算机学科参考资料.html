@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算机学科参考资料</title>
+    <link rel="stylesheet" href="font/iconfont.css" >
+    <link rel="stylesheet" href="font1/iconfont.css" >
+    <link rel="stylesheet" href="css/侧边栏.css" >
+    <link rel="stylesheet" href="css/背景.css">
+    <link rel="stylesheet" href="css/超链接.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #6699cc;
+            display: flex;
+            justify-content: center;
+        }
+        .a{
+            width: 900px;
+            height: 600px;
+            position: absolute;
+            top: 200px;
+            left:19%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .b{
+            transition: .7s;
+            overflow: hidden;
+        }
+        .b:hover{
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        img{
+            width: 400px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="a">
+        <div class="b"><a href="https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BE%9D%E6%9B%BC/986797?fromtitle=%E5%86%AF%E8%AF%BA%E4%BE%9D%E6%9B%BC&fromid=842273&fr=aladdin"target="_blank"><img src="images/冯诺依曼.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E8%89%BE%E4%BC%A6%C2%B7%E9%BA%A6%E5%B8%AD%E6%A3%AE%C2%B7%E5%9B%BE%E7%81%B5/3940576?fromtitle=%E5%9B%BE%E7%81%B5&fromid=121208&fr=aladdin"target="_blank"><img src="images/图灵.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E4%B8%B9%E5%B0%BC%E6%96%AF%C2%B7%E9%BA%A6%E5%8D%A1%E5%88%A9%E6%96%AF%E6%B3%B0%E5%B0%94%C2%B7%E9%87%8C%E5%A5%87/58101832?fr=aladdin"target="_blank"><img src="images/里奇.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E5%94%90%E7%BA%B3%E5%BE%B7%C2%B7%E5%85%8B%E5%8A%AA%E7%89%B9/1436781?fr=aladdin"target="_blank"><img src="images/克努特.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%9C%AC%E7%BA%B3%E7%AC%AC%E5%85%8B%E7%89%B9%C2%B7%E6%89%98%E7%93%A6%E5%85%B9/1034429?fr=aladdin"target="_blank"><img src="images/托瓦兹.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E5%85%8B%E5%8A%B3%E5%BE%B7%C2%B7%E8%89%BE%E5%B0%94%E4%BC%8D%E5%BE%B7%C2%B7%E9%A6%99%E5%86%9C/10588593?fromtitle=%E9%A6%99%E5%86%9C&fromid=1146248&fr=aladdin"target="_blank"><img src="images/香农.jpg"></a></div>
+        <div class="b"><a href="https://baike.baidu.com/item/%E5%90%89%E5%A4%9A%C2%B7%E8%8C%83%E7%BD%97%E8%8B%8F%E5%A7%86/328361?fr=aladdin"target="_blank"><img src="images/苏姆.jpg"></a></div>
+    </div>
+    <div class="container">
+        <button onclick="window.location.href = '计算机学科关系表.html'" class="btn">计算机学科关系表</button>
+        <button onclick="window.location.href = '计算机学科参考资料.html'" class="btn">计算机学科参考资料</button>
+        <button onclick="window.location.href = '计算机专业认识.html'" class="btn">计算机专业认识</button>
+        <button onclick="window.location.href = '我的学业规划.html'" class="btn">我的学业规划</button>
+        <button onclick="window.location.href = '首页.html'" class="btn">首页</button>
+    </div>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .shell{
+            position:absolute;
+            left: 83.9%;
+            margin-top: 4%;
+            width: 280px;
+            height: 650px;
+            background-color: #509fc9;
+        }
+        .buttons{
+            margin: 60px 0;
+            color: #fff;
+        }
+        .li{
+            letter-spacing: 2px;
+            font: 600 17px '';
+            padding: 16px 52px;
+            transition: .3s;
+        }
+        .li::after{
+            content: '';
+            position: absolute;
+            left: 20px;
+            margin-top: -22px;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+        .buttons>li:hover{
+            background-color: #7ab6f3;
+        }
+        
+        .li ul{
+            width: 0;
+            height: 650px;
+            padding: 60px 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+            background-color: #336699;
+            transition: .3s;
+        }
+
+        .li ul li{
+            padding: 16px 24px;
+            transition: .3s;
+        }
+
+        .li:hover ul{
+            width: 228px;
+        }
+        .li ul li:hover{
+            background-color: #3d97c7;
+        }
+    </style>
+</head>
+<body>
+    <nav class="shell">
+        <ul class="buttons">
+            <li class="li">
+                C/C++基础
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/c%E8%AF%AD%E8%A8%80/105958?fr=aladdin"target="_blank">C语言介绍</a></li>
+                    <li><a href="http://c.biancheng.net/"target="_blank">C语言中文网</a></li>
+                    <li><a href="https://www.runoob.com/cprogramming/c-tutorial.html"target="_blank">C语言菜鸟教学</a></li>
+                    <li><a href="https://www.bilibili.com/video/av27744141?zw"target="_blank">小甲鱼C语言视频</a></li>
+                    <li><a href="https://wizardforcel.gitbooks.io/lcthw/content/preface.html"target="_blank">gitbook</a></li>
+                    <li><a href="https://www.icourse163.org/learn/ZJU-199001?tid=1465619444#/learn/announce"target="_blank">MOOC浙江大学</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                离散数学
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/2396?fr=aladdin"target="_blank">离散数学介绍</a></li>
+                    <li><a href="https://blog.csdn.net/skymingst/article/details/7959707"target="_blank">离散数学经典教材</li>
+                    <li><a href="https://zhuanlan.zhihu.com/p/339220511"target="_blank">离散数学笔记与试题</a></li>
+                    <li><a href="https://www.icourse163.org/course/UESTC-1002268006?from=searchPage"target="_blank">MOOC电子科技大学</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1Ug411P7EN?from=search&seid=7573209946810858043&spm_id_from=333.337.0.0"target="_blank">哔哩哔哩大学（？）</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                数据结构
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1450?fr=aladdin"target="_blank">数据结构介绍</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV11s41167h6?p=1"target="_blank">数据结构入门-郝斌</a></li>
+                    <li><a href="https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1JW411i731%3Fp%3D1"target="_blank">数据结构-浙江大学</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1nJ411V7bd?p=1"target="_blank">数据结构与算法-王卓</a></li>
+                    <li><a href="https://www.zhihu.com/question/21318658"target="_blank">数据结构资料汇总</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                操作系统
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/192?fr=aladdin"target="_blank">操作系统介绍</a></li>
+                    <li><a href="https://mp.weixin.qq.com/s/201WKazlNsIudQiUFdnsgA"target="_blank">操作系统推荐书籍</a></li>
+                    <li><a href="https://www.zhihu.com/question/349353838"target="_blank">操作系统资料</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1d4411v7u7?p=1"target="_blank">操作系统网课-哈工大</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1N741177F5?p=1"target="_blank">设计与实现-南京大学</a></li>
+                </ul>
+            </li>
+            <li class="li">
+                编译原理
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/8732145"target="_blank">编译原理介绍</a></li>
+                    <li><a href="https://www.zhihu.com/question/21515496"target="_blank">入门引导</li>
+                    <li><a href="https://www.bilibili.com/video/BV1zW411t7YE?from=search&seid=15343594040773901361&spm_id_from=333.337.0.0"target="_blank">编译原理网课-哈工大</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1cW411B7DW?from=search&seid=15343594040773901361&spm_id_from=333.337.0.0"target="_blank">编译原理网课-东南大学</a></li>
+                    <li><a href="https://blog.csdn.net/qq_44111805/article/details/109604419"target="_blank">编译原理复习题库</a></li>
+                </ul>
+            </li>
+            <li class="li">
+                面向对象程序设计
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/24792?fr=aladdin"target="_blank">介绍</a></li>
+                    <li><a href="https://www.icourse163.org/course/NANKAI-1206155803"target="_blank">MOOC南开大学</li>
+                    <li><a href="https://www.bilibili.com/video/BV1oK4y1s7Jd?from=search&seid=10739453281763240537&spm_id_from=333.337.0.0"target="_blank">E课网</a></li>
+                    <li><a href="https://www.cnblogs.com/janghe/p/7663809.html"target="_blank">博客园</a></li>
+                    <li><a href="https://www.zhihu.com/question/61018627/answer/413585760"target="_blank">类型题</a></li>
+                </ul>
+            </li>
+            <li class="li">
+                汇编语言程序设计
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826?fr=aladdin"target="_blank">汇编语言介绍</a></li>
+                    <li><a href="https://blog.csdn.net/Azad221103/article/details/102173534"target="_blank">汇编语言总括</li>
+                    <li><a href="http://c.biancheng.net/asm/"target="_blank">汇编语言指南</a></li>
+                    <li><a href="https://zhuanlan.zhihu.com/p/23969549"target="_blank">汇编语言结构</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1zW411n79C?from=search&seid=4241071043126399470&spm_id_from=333.337.0.0"target="_blank">汇编语言网课</a></li>
+                </ul>
+            </li>
+            <li class="li">
+                Java
+                <ul>
+                    <li><a href="https://baike.baidu.com/item/Java/85979?fr=aladdin"target="_blank">Java介绍</a></li>
+                    <li><a href="https://www.oracle.com/java/"target="_blank">Oracle</li>
+                    <li><a href="https://www.zhihu.com/question/25255189/answer/2053358389"target="_blank">Java入门技巧</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV1Rx411876f?from=search&seid=11418958541200932459&spm_id_from=333.337.0.0"target="_blank">Java网课</a></li>
+                    <li><a href="https://www.bilibili.com/video/BV18J411W7cE?from=search&seid=11418958541200932459&spm_id_from=333.337.0.0"target="_blank">黑马程序员</a></li>
+                </ul>
+            </li>
+            <li class="li">
+                程序员通用
+                <ul>
+                    <li><a href="https://github.com/"target="_blank">Github</a></li>
+                    <li><a href="https://leetcode-cn.com/"target="_blank">力扣</li>
+                    <li><a href="https://gitee.com/"target="_blank">Gitee</a></li>
+                    <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn"target="_blank">MDN</a></li>
+                    <li><a href="https://zh-hans.reactjs.org/"target="_blank">React</a></li>
+                    <li><a href="https://codepen.io/"target="_blank">Codepen</a></li>
+                    <li><a href="https://www.electronjs.org/"target="_blank">Electron</a></li>
+                    <li><a href="https://vitejs.dev/"target="_blank">Vite</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="wrap">
+        <div class="nav">
+            <!--按钮-->
+            <div class="bt1">
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+            </div>
+            <!--头像-->
+            <div class="icon">
+                <div class="icon-img"><img src="images/eric.png" alt="" /></div>
+                <div class="icon-con">
+                    <p>Good Day</p>
+                    <h2>我做着玩的</h2>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Menu 6</p>
+            </div>
+            <div class="menu">
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-wenjian"></span></div>
+                    <div class="con">Dashboard</div>
+                    <div class="ricon"><span class="iconfont icon-shezhi"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-qipao1"></span></div>
+                    <div class="con">Products</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang1"></span>
+                    </div>
+                    <div class="con">Campaigns</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-xiaolian"></span>
+                    </div>
+                    <div class="con">Sales</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang"></span>
+                    </div>
+                    <div class="con">Discount</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-wenjian1"></span>
+                    </div>
+                    <div class="con">Payouts</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Sever 6</p>
+            </div>
+            <div class="serve">
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-caidan"></span></div>
+                    <div class="con">Software</div>
+                    <div class="ricon">
+                        <span class="iconfont icon-Dashboard"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-renqun"></span></div>
+                    <div class="con">Chat</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-sousuo"></span></div>
+                    <div class="con">Intercom</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="licon">
+                        <span class="iconfont icon-gengduo-a"></span>
+                    </div>
+                    <div class="con">Setting</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <body>
+        <div class="text"></div>
+    </body>
+</body>
+</html>

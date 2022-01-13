@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算机学科关系表</title>
+    <link rel="stylesheet" href="font/iconfont.css" />
+    <link rel="stylesheet" href="font1/iconfont.css" />
+    <link rel="stylesheet" href="css/侧边栏.css" />
+    <link rel="stylesheet" href="css/背景.css">
+    <link rel="stylesheet" href="css/超链接.css">
+    <link rel="stylesheet" href="css/幽灵.css" />
+
+    <style>
+        body{
+            background-color: #6699cc;
+        }
+        .a{
+            position: absolute;
+            left:50%;
+            margin-top:9%;
+            perspective: 1600px;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b{
+            width: 400px;
+            height: 250px;
+            position: absolute;
+            transform-style: preserve-3d;
+            animation: a 8s infinite cubic-bezier(.7,0,.17,1);
+        }
+        .b div{
+            position: absolute;
+            background-size: cover;
+            opacity: .9;
+            width: 400px;
+            height: 250px;
+            transform: rotateY(calc(var(--i)*120deg)) translateZ(600px);
+        }
+        @keyframes a{
+            0%{
+                transform: translateZ(-100px) rotateY(0);
+            }
+            33%{
+                transform: translateZ(-100px) rotateY(-120deg);
+            }
+            66%{
+                transform: translateZ(-100px) rotateY(-240deg);
+            }
+            100%{
+                transform: translateZ(-100px) rotateY(-360deg);
+            }
+        }
+        .c{
+            background-image: url("images/1.png");
+        }
+        .d{
+            background-image: url("images/2.png");
+        }
+        .e{
+            background-image: url("images/3.png");
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <button onclick="window.location.href = '计算机学科关系表.html'" class="btn">计算机学科关系表</button>
+        <button onclick="window.location.href = '计算机学科参考资料.html'" class="btn">计算机学科参考资料</button>
+        <button onclick="window.location.href = '计算机专业认识.html'" class="btn">计算机专业认识</button>
+        <button onclick="window.location.href = '我的学业规划.html'" class="btn">我的学业规划</button>
+        <button onclick="window.location.href = '首页.html'" class="btn">首页</button>
+    </div>
+    <div class="a">
+        <div class="b">
+            <div class="c" style="--i:0"></div>
+            <div class="d" style="--i:1"></div>
+            <div class="e" style="--i:2"></div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="nav">
+            <!--按钮-->
+            <div class="bt1">
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+            </div>
+            <!--头像-->
+            <div class="icon">
+                <div class="icon-img"><img src="images/eric.png" alt="" /></div>
+                <div class="icon-con">
+                    <p>Good Day</p>
+                    <h2>老师好</h2>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Menu 6</p>
+            </div>
+            <div class="menu">
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-wenjian"></span></div>
+                    <div class="con">Dashboard</div>
+                    <div class="ricon"><span class="iconfont icon-shezhi"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-qipao1"></span></div>
+                    <div class="con">Products</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang1"></span>
+                    </div>
+                    <div class="con">Campaigns</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-xiaolian"></span>
+                    </div>
+                    <div class="con">Sales</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang"></span>
+                    </div>
+                    <div class="con">Discount</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-wenjian1"></span>
+                    </div>
+                    <div class="con">Payouts</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Sever 6</p>
+            </div>
+            <div class="serve">
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-caidan"></span></div>
+                    <div class="con">Software</div>
+                    <div class="ricon">
+                        <span class="iconfont icon-Dashboard"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-renqun"></span></div>
+                    <div class="con">Chat</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-sousuo"></span></div>
+                    <div class="con">Intercom</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="licon">
+                        <span class="iconfont icon-gengduo-a"></span>
+                    </div>
+                    <div class="con">Setting</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <body>
+        <div class="text"></div>
+    </body>
+    <div class="container1">
+        <div class="ghost">
+            <div class="ghostEyes"></div>
+            <div class="ghostDimples"></div>
+            <div class="ghostFeet">
+                <div class="ghostFoot"></div>
+                <div class="ghostFoot"></div>
+                <div class="ghostFoot"></div>
+                <div class="ghostFoot"></div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+</body>
+</html>

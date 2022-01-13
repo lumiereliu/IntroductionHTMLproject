@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    
+    <link rel="stylesheet" href="css/爱心.css">
+    <link rel="stylesheet" href="font/iconfont.css" />
+    <link rel="stylesheet" href="font1/iconfont.css" />
+    <link rel="stylesheet" href="css/侧边栏.css" />
+    <link rel="stylesheet" href="css/背景.css">
+    <link rel="stylesheet" href="css/超链接.css">
+    </head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #6699cc;
+        }
+        .a{
+            position: absolute;
+            left: 20.5%;
+            margin-top: 8%;
+            width: 1000px;
+            height: 600px;
+            background-image: url("images/名片.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .b,
+        .c,
+        .d,
+        .e{
+            position: absolute;
+            width: 1000px;
+            height: 600px;
+            /* 设置阴影 */
+            filter: drop-shadow(4px 4px 12px rgba(0,0,0,.5));
+            background-size: cover;
+            opacity: .7;
+            transition: .5s;
+        }
+        .b::after,
+        .c::after,
+        .d::after,
+        .e::after{
+            content: "";
+            position: absolute;
+            width: 1000px;
+            height: 600px;
+            background-image: url("images/名片.jpg");
+        }
+        .b{
+            left: -400px;
+            transform: rotateZ(100deg);
+            overflow: hidden;
+        }
+        .b::after{
+            transform: rotateZ(-100deg);
+        }
+
+        .c{
+            left: -400px;
+            transform: rotateZ(-100deg);
+            overflow: hidden;
+        }
+        .c::after{
+            transform: rotateZ(100deg);
+        }
+
+        .d{
+            right: -400px;
+            transform: rotateZ(105deg);
+            overflow: hidden;
+        }
+        .d::after{
+            transform: rotateZ(-105deg);
+        }
+
+        .e{
+            right: -400px;
+            transform: rotateZ(-100deg);
+            overflow: hidden;
+        }
+        .e::after{
+            transform: rotateZ(100deg);
+        }
+        .f{
+            opacity: 0;
+            font: 900 50px '';
+            /* 设置字体间距 */
+            letter-spacing: 10px;
+            color: rgb(60,60,70);
+            transition: .5s;
+        }
+        /* 设置动画 */
+        .a:hover .b{
+            left: -550px;
+        }
+        .a:hover .c{
+            left: -600px;
+        }
+        .a:hover .d{
+            right: -550px;
+        }
+        .a:hover .e{
+            right: -610px;
+        }
+        .a:hover .f{
+            opacity: 1;
+        }
+    </style>
+</head>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <p class="f">刘彦晗<br>2213515289</p>
+    </div>
+<body>
+    <div class="container">
+        <button onclick="window.location.href = '计算机学科关系表.html'" class="btn">计算机学科关系表</button>
+        <button onclick="window.location.href = '计算机学科参考资料.html'" class="btn">计算机学科参考资料</button>
+        <button onclick="window.location.href = '计算机专业认识.html'" class="btn">计算机专业认识</button>
+        <button onclick="window.location.href = '我的学业规划.html'" class="btn">我的学业规划</button>
+        <button onclick="window.location.href = '首页.html'" class="btn">首页</button>
+    </div>
+    <div class="心">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="wrap">
+        <div class="nav">
+            <!--按钮-->
+            <div class="bt1">
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+                <div class="bt1-item"></div>
+            </div>
+            <!--头像-->
+            <div class="icon">
+                <div class="icon-img"><img src="images/eric.png" alt="" /></div>
+                <div class="icon-con">
+                    <p>Good Day</p>
+                    <h2>lumiere</h2>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Menu 6</p>
+            </div>
+            <div class="menu">
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-wenjian"></span></div>
+                    <div class="con">Dashboard</div>
+                    <div class="ricon"><span class="iconfont icon-shezhi"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon"><span class="iconfont icon-qipao1"></span></div>
+                    <div class="con">Products</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang1"></span>
+                    </div>
+                    <div class="con">Campaigns</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-xiaolian"></span>
+                    </div>
+                    <div class="con">Sales</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-shexiang"></span>
+                    </div>
+                    <div class="con">Discount</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="light"></div>
+                    <div class="licon">
+                        <span class="iconfont icon-wenjian1"></span>
+                    </div>
+                    <div class="con">Payouts</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="title">
+                <p>Sever 6</p>
+            </div>
+            <div class="serve">
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-caidan"></span></div>
+                    <div class="con">Software</div>
+                    <div class="ricon">
+                        <span class="iconfont icon-Dashboard"></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-renqun"></span></div>
+                    <div class="con">Chat</div>
+                    <div class="ricon"></div>
+                </div>
+                <div class="item">
+                    <div class="licon"><span class="iconfont icon-sousuo"></span></div>
+                    <div class="con">Intercom</div>
+                    <div class="ricon"><span class="iconfont icon-caidan1"></span></div>
+                </div>
+                <div class="item">
+                    <div class="licon">
+                        <span class="iconfont icon-gengduo-a"></span>
+                    </div>
+                    <div class="con">Setting</div>
+                    <div class="ricon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <body>
+        <div class="text"></div>
+    </body>
+</body>
+</html>

@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shell1{
+    position: absolute;
+    left:12%;
+    margin-top: 6%;
+    width: 360px;
+    height: 500px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+.main-top1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #5f71e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transition: .3s;
+}
+.lin11{
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, .5);
+}
+.ball1 img{
+    width: 130px;
+    transition: .3s;
+}
+.ball1{
+    width: 130px;
+    height: 130px;
+    background-color: #5f71e0;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    z-index: 99;
+}
+.main-top1 h21{
+    transform: translate(-65px,-40px);
+}
+.main-top1 span1{
+    position: absolute;
+    writing-mode: tb-rl;
+    font-size: 5px;
+    transform: translate(100px);
+}
+.main-bottom1{
+    width: 100%;
+    text-align: center;
+    font-size: 5px;
+    color: #5f71e0;
+    padding:3px 0;
+}
+.main-bottom1 span1{
+    display: block;
+    padding:5px;
+}
+.shell1:hover .main-top1{
+    height: 290px;
+}
+.shell1:hover .ball1 img{
+    transform: rotate(30deg) scale(1.2) translate(0px,-15px);
+}
+.shell2{
+    position: absolute;
+    left:39%;
+    margin-top:6%;
+    width: 360px;
+    height: 500px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+.main-top2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #e98b1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transition: .3s;
+}
+.lin12{
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, .5);
+}
+.ball2 img{
+    width: 130px;
+    transition: .3s;
+}
+.ball2{
+    width: 130px;
+    height: 130px;
+    background-color: #e98b1d;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    z-index: 99;
+}
+.main-top2 h22{
+    transform: translate(-65px,-40px);
+}
+.main-top2 span2{
+    position: absolute;
+    writing-mode: tb-rl;
+    font-size: 5px;
+    transform: translate(100px);
+}
+.main-bottom2{
+    width: 100%;
+    text-align: center;
+    font-size: 5px;
+    color: #e98b1d;
+    padding:3px 0;
+}
+.main-bottom2 span2{
+    display: block;
+    padding:5px;
+}
+.shell2:hover .main-top2{
+    height: 290px;
+}
+.shell2:hover .ball2 img{
+    transform: rotate(30deg) scale(1.2) translate(0px,-15px);
+}
+.shell3{
+    position: absolute;
+    left:66%;
+    margin-top: 6%;
+    width: 360px;
+    height: 500px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+.main-top3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #72aea8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    transition: .3s;
+}
+.lin13{
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+    background-color: rgba(255, 255, 255, .5);
+}
+.ball3 img{
+    width: 130px;
+    transition: .3s;
+}
+.ball3{
+    width: 130px;
+    height: 130px;
+    background-color: #72aea8;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    z-index: 99;
+}
+.main-top3 h23{
+    transform: translate(-65px,-40px);
+}
+.main-top3 span3{
+    position: absolute;
+    writing-mode: tb-rl;
+    font-size: 5px;
+    transform: translate(100px);
+}
+.main-bottom3{
+    width: 100%;
+    text-align: center;
+    font-size: 5px;
+    color: #72aea8;
+    padding:3px 0;
+}
+.main-bottom3 span3{
+    display: block;
+    padding:5px;
+}
+.shell3:hover .main-top3{
+    height: 290px;
+}
+.shell3:hover .ball3 img{
+    transform: rotate(30deg) scale(1.2) translate(0px,-15px);
+}
